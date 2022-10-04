@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desafio-custos.css">
+</head>
+<body>
+    <form action="" id="form">
+        <fieldset>
+            <legend>Controle de Gastos</legend>
+
+            <label for="">Título:</label>
+            <input type="text" id="titulo" required>
+
+            <label for="">Total:</label>
+            <input type="text" id="total" required>
+
+            <label for="">Tipo:</label>
+            <select name="" id="tipo">
+                <option value="receita">Receita</option>
+                <option value="despesa">Despesa</option>
+            </select>
+
+            <button type="button" onclick="calcular()">Adicionar</button>
+            
+        </fieldset>
+    </form>
+    <hr>
+    <div id="resultados">
+
+
+    </div>
+    <script src="desafio-custos.js"></script>
+</body>
+</html>

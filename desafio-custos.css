@@ -1,0 +1,47 @@
+*{
+    font-size: 25px;
+}
+
+form{
+    width: 300px;
+    height: 350px;
+    
+}
+
+input{
+    display:block;
+    margin-bottom: 20px;
+    width: 650px;
+    height: 30px;
+}
+label{
+    color: red;
+     
+}
+
+select{
+    display: block;
+    margin-bottom: 20px;
+    width: 657px;
+    height: 40px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+}
+
+hr{
+    width: 700px;
+    margin-inline: 0;
+    margin-top: 30px;
+    
+}
+
+.negativo{
+    color: red;
+}
+
+.positivo{
+    color: green;
+}
