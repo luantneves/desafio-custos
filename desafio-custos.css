@@ -42,6 +42,18 @@ hr{
     color: red;
 }
 
+.negativo::before{
+    content: "R$ -";
+}
+
+.negativo::after{
+
+}
+
 .positivo{
     color: green;
+}
+
+.positivo::before{
+    content: "R$ +";
 }
